@@ -10,9 +10,10 @@
     <title>Vue email List</title>
 </head>
 <body>
+    <main class="container">
     <!-- Vue App -->
-    <div id="app">
-        <div> 
+    <div id="app" >
+        <div class="mail"> 
             <!-- check for 10 -->
             <ul v-if="mails.length === 10">
                 <!-- print in the array -->
@@ -21,6 +22,7 @@
         </div>
     </div>
     <!-- /Vue App -->
+    </main>
 
     <!-- Axios JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.20.0/axios.min.js"></script>

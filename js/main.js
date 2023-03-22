@@ -6,7 +6,7 @@ Bonus
 Far comparire gli indirizzi email solamente quando sono stati tutti generati.
 */
 
-"use strict"
+'use strict';
 
 const { createApp } = Vue
 
